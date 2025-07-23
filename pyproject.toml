@@ -1,15 +1,14 @@
 [project]
-name = "ZERCalc"          # PyPI name
+name = "ZERCalc"
 version = "0.0.1"
 description = "Python-based model to aggregate energy resource demands of net-zero emissions plans across sectors and industries."
 readme = "README.md"
 requires-python = "==3.9"
-license = "LICENSE"
+license = { file = "LICENSE" }
 authors = [
   {name = "Jennifer Hawkin"}
 ]
 
-# Core runtime dependencies (use exact pins only when you *must*)
 dependencies = [
   "numpy",
   "pandas",
