@@ -1,6 +1,6 @@
 # The Zero-Emissions Resources (ZER) Calculator, ZER-Calc
 
-**ZER-Calc** is a Python-based model to aggregate energy resource demands of net-zero emissions plans across sectors and industries. These aggregated demands can be compared against estimates of 2050 probable ZER supply. The model is documented in an upcoming paper and its supplementary information (SI) file.
+**ZER-Calc** is a Python-based model to aggregate energy resource demands of net-zero emissions plans across sectors and industries. All energy demands depend on three Zero Emissions Resources (ZERs): emissions-free electricity, carbon storage and biomass. These aggregated demands for ZERs are calculated by ZER-Calc so they can be compared against estimates of 2050 probable ZER supply. The model is documented in an upcoming paper and its supplementary information (SI) file.
 
 ## Requirements
 
