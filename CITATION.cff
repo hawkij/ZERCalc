@@ -1,0 +1,32 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: ZERCalc
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: 'Jennifer, L.'
+    family-names: Hawkin
+    email: j.l.hawkin@gmail.com
+    affiliation: University of Cambridge
+    orcid: 'https://orcid.org/0000-0001-6663-8494'
+repository-code: 'https://github.com/hawkij/ZERCalc'
+abstract: >-
+  ZER-Calc is a Python-based model to aggregate energy
+  resource demands of net-zero emissions plans across
+  sectors and industries. All energy demands depend on three
+  Zero Emissions Resources (ZERs): emissions-free
+  electricity, carbon storage and biomass. These aggregated
+  demands for ZERs are calculated by ZER-Calc so they can be
+  compared against estimates of 2050 probable ZER supply. 
+keywords:
+  - climate change
+  - energy model
+  - net zero
+  - energy transition
+  - negative emissions
+  - biomass
+license: MIT
