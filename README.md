@@ -10,7 +10,7 @@
 
 ### Data
 
-The model coefficients are stored in the "Coefficients" sheet of "Recipe_Coefficients.xls". Coefficients are given in the column "Best_Estimate_Data", corresponding to those documented in the SI Part 5 of the upcoming paper. These values can be adjusted.
+The model coefficients are stored in the "Coefficients" sheet of "Data/Recipe_Coefficients.xls". Coefficients are given in the column "Best_Estimate_Data", corresponding to those documented in the SI Part 5 of the upcoming paper. These values can be adjusted.
 
 The model inputs used for the main paper are stored are in the "Demand" and "TechShares" sheets of "Recipe_Coefficients.xls", corresponding to q^ and alpha, descibed in the model maths in the SI Part 2. The values for the model inputs used for the main paper are justified in the SI Part 6. Additional columns can be added to these sheets to consider alternative combinations of net-zero plans.
 
