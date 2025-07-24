@@ -17,12 +17,12 @@ The model inputs used for the main paper are stored are in the "Demand" and "Tec
 ### To reproduce Figure 2
 
 Clone the repository locally
-Run the Jupyter notebook code, "Figure 2.ipynb"(Code/Figure 2.ipynb)
+Run the Jupyter notebook code, ["Figure 2.ipynb"](Code/Figure 2.ipynb)
 
 ### To reproduce Figure 3
 
 Clone the repository locally
-Run the Jupyter notebook code, "Figure 3.ipynb"(Code/Figure 3.ipynb)
+Run the Jupyter notebook code, ["Figure 3.ipynb"](Code/Figure 3.ipynb)
 
 
 ## 📌 License
