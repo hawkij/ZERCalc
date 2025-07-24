@@ -22,7 +22,7 @@ Use the Jupyter notebook code, "Figure 2.ipynb"
 ### To reproduce Figure 3
 
 Clone the repository locally
-Use the Jupyter notebook code, "Figure 3.ipynb"
+Run the Jupyter notebook code, "Figure 3.ipynb"
 
 
 ## 📌 License
