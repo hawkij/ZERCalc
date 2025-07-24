@@ -4,7 +4,7 @@
 
 ## Requirements
 
-**ZER-Calc** runs on Python version 3.9, using numpy, pandas and matplotlib
+**ZER-Calc** runs on Python version 3.9, using numpy, pandas, xlrd, jupyter and matplotlib
 
 ## How to use
 
