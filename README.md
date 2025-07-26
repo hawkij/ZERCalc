@@ -4,7 +4,9 @@
 
 ## Requirements
 
-**ZER-Calc** runs on Python version 3.9, using numpy, pandas, xlrd, jupyter and matplotlib
+**ZER-Calc** runs on Python version 3.9. Refer to the file: ["PyProject.toml"]("PyProject.toml") for dependencies.
+
+It is recommended to run the code in a Python virtual environment.
 
 ## How to use
 
@@ -17,12 +19,12 @@ The model inputs used for the main paper are stored are in the "Demand" and "Tec
 ### To reproduce Figure 2
 
 Clone the repository locally
-Run the Jupyter notebook code, "Figure 2.ipynb"(Code/Figure 2.ipynb)
+Run the Jupyter notebook code, ["Figure 2.ipynb"](Code/Figure 2.ipynb)
 
 ### To reproduce Figure 3
 
 Clone the repository locally
-Run the Jupyter notebook code, "Figure 3.ipynb"(Code/Figure 3.ipynb)
+Run the Jupyter notebook code, ["Figure 3.ipynb"](Code/Figure 3.ipynb)
 
 
 ## 📌 License
