@@ -4,7 +4,9 @@
 
 ## Requirements
 
-**ZER-Calc** runs on Python version 3.9, using numpy, pandas, xlrd, jupyter and matplotlib
+**ZER-Calc** runs on Python version 3.9. Refer to the file: ["PyProject.toml"]("PyProject.toml") for dependencies.
+
+It is recommended to run the code in a Python virtual environment.
 
 ## How to use
 
