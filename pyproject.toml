@@ -3,7 +3,7 @@ name = "ZERCalc"
 version = "0.0.1"
 description = "Python-based model to aggregate energy resource demands of net-zero emissions plans across sectors and industries."
 readme = "README.md"
-requires-python = "==3.9"
+requires-python = ">=3.9, <3.10"
 license = { file = "LICENSE" }
 authors = [
   {name = "Jennifer Hawkin"}
@@ -18,3 +18,6 @@ dependencies = [
   "notebook == 6.4.12",
   "jupyterlab == 4.4.5"
 ]
+
+[tool.poetry]
+package-mode = false
