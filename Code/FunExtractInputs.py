@@ -52,9 +52,9 @@ def ZERS_LoadInputs(file, TechShare_ColName, Demand_ColName):
     TechShare_SheetName = "TechShares" # name of the sheet in file which contains the proportions of each technology
     Demand_SheetName = "Demand" # name of the sheet in file which contains the end-user demands of each Activity.
     
-    output_csv_demand = "..\Output\CSVs\EndUse_Demand.csv"
-    output_csv_coeffs = "..\Output\CSVs\Process_Coeffs.csv"
-    output_csv_scaling = "..\Output\CSVs\Process_Shares.csv"
+    output_csv_demand = "../Output/CSVs/EndUse_Demand.csv"
+    output_csv_coeffs = "../Output/CSVs/Process_Coeffs.csv"
+    output_csv_scaling = "../Output/CSVs/Process_Shares.csv"
    
     
     ################### EXTRACT DATA ##########################################
