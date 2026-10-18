@@ -1,10 +1,14 @@
-# The Zero-Emissions Resources (ZER) Calculator, ZER-Calc
+# The Zero-Emissions Resources (ZER) Calculator, ZERCalc
 
-**ZER-Calc** is a Python-based model to aggregate energy resource demands of net-zero emissions plans across sectors and industries. All energy demands depend on three Zero Emissions Resources (ZERs): emissions-free electricity, carbon storage and biomass. These aggregated demands for ZERs are calculated by ZER-Calc so they can be compared against estimates of 2050 probable ZER supply. The model is documented in an upcoming paper and its supplementary information (SI) file.
+**ZERCalc** is the open-source Python model accompanying:
+
+Hawkin, J. L. and Allwood, J. M. (2026), “Aggregating Demand for Three Fundamental Resources to Avoid Burden-Shifting in Climate Policy,” Environmental Science & Technology, 60(13), 9958–9972. ["https://doi.org/10.1021/acs.est.5c12742"](https://doi.org/10.1021/acs.est.5c12742)
+
+The model aggregates the demands that net-zero plans place on three fundamental resources: emissions-free electricity, biomass and carbon storage. It enables these combined demands to be compared with estimates of plausible global supply in 2050, revealing resource competition and potential burden-shifting that may be obscured when mitigation strategies are assessed separately.
 
 ## Requirements
 
-**ZER-Calc** runs on Python version 3.9. Refer to the file: ["PyProject.toml"]("PyProject.toml") for dependencies.
+**ZERCalc** runs on Python version 3.9. Refer to the file: [pyproject.toml](pyproject.toml) for dependencies.
 
 It is recommended to run the code in a Python virtual environment.
 
@@ -14,7 +18,7 @@ It is recommended to run the code in a Python virtual environment.
 
 The model coefficients are stored in the "Coefficients" sheet of ["Data/Recipe_Coefficients.xls"](Data/Recipe_Coefficients.xls). Coefficients are given in the column "Best_Estimate_Data", corresponding to those documented in the SI Part 5 of the upcoming paper. These values can be adjusted.
 
-The model inputs used for the main paper are stored are in the "Demand" and "TechShares" sheets of ["Data/Recipe_Coefficients.xls"](Data/Recipe_Coefficients.xls), corresponding to q^ and alpha, descibed in the model maths in the SI Part 2. The values for the model inputs used for the main paper are justified in the SI Part 6. Additional columns can be added to these sheets to consider alternative combinations of net-zero plans.
+The model inputs used for the main paper ["(Hawkin and Allwood. 2026)"](https://doi.org/10.1021/acs.est.5c12742)) are stored in the "Demand" and "TechShares" sheets of ["Data/Recipe_Coefficients.xls"](Data/Recipe_Coefficients.xls), corresponding to q^ and alpha, described in the model maths in the SI Part 2. The values for the model inputs used for the main paper are justified in the SI Part 6. Additional columns can be added to these sheets to consider alternative combinations of net-zero plans.
 
 ### To reproduce Figure 2
 
@@ -33,7 +37,7 @@ Licensed under MIT Copyright (c) 2025 hawkij
 
 ## 📌 Citing
 
-To cite the results, data or approach of the ZER Calculator, please reference our upcoming paper. To cite the model itself, please use the [ZERCalc citation file](CITATION.cff).
+To cite the results, data or approach of the ZER Calculator, please reference ["Hawkin, J. L. and Allwood, J. M. (2026)"](https://doi.org/10.1021/acs.est.5c12742). To cite the model itself, please use the [ZERCalc citation file](CITATION.cff).
 
 ---
 
