@@ -17,6 +17,7 @@ dependencies = [
   "seaborn == 0.11.2",
   "notebook == 6.4.12",
   "jupyterlab == 4.4.5"
+  "scipy"
 ]
 
 [tool.poetry]
